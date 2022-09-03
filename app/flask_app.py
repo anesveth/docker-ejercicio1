@@ -25,4 +25,5 @@ def test_get(tester):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # Es necesario agregar esta configuración de host en esa sección, por defecto expone la app unicamente en localhost, agregando ese parametro permite hacer el port mapping.
+    app.run(host='0.0.0.0',debug=True)
