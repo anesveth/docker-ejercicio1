@@ -12,7 +12,7 @@ Luego ya solo le hacemos run e indicamos que corra en el puerto 8080
 docker run -p 8080:5000 anesveth/chess-dockerize-classexercise
  ```
 Ahora solo debemos navegar al localhost:8080 y deberia aparecer el juego de ajedrez.
-![screenshot de prueba](https://ibb.co/rFQThMN)
+![screenshot de prueba](https://i.ibb.co/ydNGC57/Screen-Shot-2022-09-02-at-22-46-48.png)
 ## Repositorio Docker
 
 https://hub.docker.com/repository/docker/anesveth/chess-dockerize-classexercise
