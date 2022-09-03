@@ -5,6 +5,6 @@ WORKDIR /app
 COPY app/requirements.txt ./
 RUN pip3 install -r requirements.txt
 COPY . .
-# EXPOSE 8080
+EXPOSE 5000
 CMD [ "app/flask_app.py" ]
 ENTRYPOINT [ "python3" ]
